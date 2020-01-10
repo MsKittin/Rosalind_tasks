@@ -4,4 +4,8 @@ The task is to calculate the number of nucleotides 'A', 'C', 'G', and 'T' encoun
 
 # Transcribing DNA into RNA
 
-The task is to transcribe DNA string having length at most 1000 nt to RNA string by replacing all occurrences of 'T' with 'U'.
+The task is to transcribe DNA string having length at most 1000 nt to RNA string by replacing all occurrences of 'T' with 'U'. Code must return the transcribed RNA string.
+
+# Complementing a Strand of DNA
+
+The task is to write reversed complementary nucleotide sequence of given a DNA string of length at most 1000 bp. Code must return the reversed complement of given DNA string.
