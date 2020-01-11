@@ -14,3 +14,8 @@ The task is to write reversed complementary nucleotide sequence of given a DNA s
 
 Given: At most 10 DNA strings in FASTA format (of length at most 1 kbp each).
 Return: The ID of the string having the highest GC-content, followed by the GC-content of that string. 
+
+# Counting Point Mutations
+
+Given: Two DNA strings s and t of equal length (not exceeding 1 kbp).
+Return: The Hamming distance dH(s,t) (the number of corresponding symbols that differ in s and t)
