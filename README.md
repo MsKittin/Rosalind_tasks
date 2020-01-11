@@ -19,3 +19,15 @@ Return: The ID of the string having the highest GC-content, followed by the GC-c
 
 Given: Two DNA strings s and t of equal length (not exceeding 1 kbp).
 Return: The Hamming distance dH(s,t) (the number of corresponding symbols that differ in s and t)
+
+# Mendel's First Law
+
+Given: Three positive integers k, m, and n, representing a population containing k+m+n organisms: k individuals are homozygous dominant for a factor, m are heterozygous, and n are homozygous recessive.
+
+Return: The probability that two randomly selected mating organisms will produce an individual possessing a dominant allele (and thus displaying the dominant phenotype). Assume that any two organisms can mate.
+
+# Rabbits and Recurrence Relations
+
+Given: Positive integers n≤40 and k≤5.
+
+Return: The total number of rabbit pairs that will be present after n months, if we begin with 1 pair and in each generation, every pair of reproduction-age rabbits produces a litter of k rabbit pairs (instead of only 1 pair).
