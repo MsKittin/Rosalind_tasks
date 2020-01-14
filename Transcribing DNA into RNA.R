@@ -1,3 +1,6 @@
+# The task is to transcribe DNA string having length at most 1000 nt to RNA string
+# by replacing all occurrences of 'T' with 'U'. Code must return the transcribed RNA string.
+
 #open the file
 rosalind_rna <- read.table("rosalind_rna.txt")
 #translate our input DNA string into a vector, split it and refer to the inner list of single characters
