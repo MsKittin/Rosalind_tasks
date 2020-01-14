@@ -1,3 +1,6 @@
+# Given: At most 10 DNA strings in FASTA format (of length at most 1 kbp each).
+# Return: The ID of the string having the highest GC-content, followed by the GC-content of that string.
+
 library(seqinr)
 rosalind_gc <- read.fasta("rosalind_gc.txt")
 
@@ -24,7 +27,3 @@ while (k <= length(rosalind_gc)){
 
 gc_cont = max_gc / as.numeric(max_length) * 100
 cat(id_of_max, gc_cont, sep = '\n')
-
-
-
-
