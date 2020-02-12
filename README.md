@@ -31,3 +31,15 @@ Return: The probability that two randomly selected mating organisms will produce
 Given: Positive integers n≤40 and k≤5.
 
 Return: The total number of rabbit pairs that will be present after n months, if we begin with 1 pair and in each generation, every pair of reproduction-age rabbits produces a litter of k rabbit pairs (instead of only 1 pair).
+
+# Translating RNA into Protein
+
+Given: An RNA string s corresponding to a strand of mRNA (of length at most 10 kbp).
+
+Return: The protein string encoded by s.
+
+# Finding a Motif in DNA
+
+Given: Two DNA strings s and t (each of length at most 1 kbp).
+
+Return: All locations of t as a substring of s.
