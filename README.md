@@ -43,3 +43,9 @@ Return: The protein string encoded by s.
 Given: Two DNA strings s and t (each of length at most 1 kbp).
 
 Return: All locations of t as a substring of s.
+
+# Consensus and Profile
+
+Given: A collection of at most 10 DNA strings of equal length (at most 1 kbp) in FASTA format.
+
+Return: A consensus string and profile matrix for the collection. (If several possible consensus strings exist, then you may return any one of them.)
