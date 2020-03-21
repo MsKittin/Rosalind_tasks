@@ -57,3 +57,9 @@ Return: All locations of t as a substring of s.
 Given: A collection of at most 10 DNA strings of equal length (at most 1 kbp) in FASTA format.
 
 Return: A consensus string and profile matrix for the collection. (If several possible consensus strings exist, then you may return any one of them.)
+
+# Finding a Shared Motif
+
+Given: A collection of k (k≤100) DNA strings of length at most 1 kbp each in FASTA format.
+
+Return: A longest common substring of the collection. (If multiple solutions exist, you may return any single solution.)
